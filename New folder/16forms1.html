@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+   <fieldset>
+    <legend align="center"><h1>personal information</h1></legend>
+   
+    <form method="get">
+        <label id="fname">name</label>
+        <input type="text" name="fname" id="fname" placeholder="eg:harish" required><br> <br>
+        <label for="pswd"> password</label>
+        <input type="password" name="pswd" id ="pswd" placeholder="eg:chodisetti" value="chodi" required><br> <br>
+        <label for="lname">lname</label>
+        <input type="text" name="lname" id="lname"><br> <br>
+        <label for="cname">companyname  </label>
+        <input type="text" name="cname" id="cname" placeholder="infosys" disabled><br> <br>
+        <label for="date">date</label>
+        <input type="date" name="lname" id="date"><br> <br>
+        <label for="date and time">date</label>
+        <input type="datetime-local" name="lname" id="date and time"><br> <br>
+        <label for="mail">Email</label>
+        <input type="email" name="emailid" id="mail"><br> <br>
+       <label for="files"></label>
+        <input type="file" name="fle" id="files" multiple><br> <br>
+        <b>gender:</b><br>
+        <label>male</label>
+        <input type="radio" name="gender" id="" value="male">
+        <label>female</label>
+        <input type="radio" name="gender" id="" value="female"><br><br>
+        <b>languages known:</b><br>
+        <input type="checkbox" id="html" name="language" value="html">
+        <label for="html"> html</label><br>
+        <input type="checkbox" id="css" name="language" value="css">
+        <label for="css"> css</label><br>
+        <input type="checkbox" id="javascript" name="language" value="javascript">
+        <label for="javascript"> javascript</label><br><br>
+        <textarea rows='4'cols='5' multiple selected> </textarea>
+         <label for="submit"></label>
+        <input type="submit" name="register" id="submit" value="save"><br> <br>
+        <label for="browser">Choose your college from the list:</label>
+        <input list="colleges" name="college" id="browser">
+        <datalist id="colleges">
+            <option value="andhra university">
+            <option value="jntu university">
+            <option value="osmania university">
+            <option value="nagarjuna university">
+            <option value="S.v university">
+          </datalist><br><br>
+          
+         <label for="select"><b>choose a city</b></label><br>
+         <select id="select">
+
+            <option>chennai</option>
+            <option>hyderabad</option>
+            <option>visakhapatnam</option>
+          </select>
+          <br><br>
+
+
+       
+
+
+
+        <button type="submit">register</button>
+
+        
+
+
+
+
+
+
+        
+
+
+
+
+    </form>
+    </fieldset>
+    
+</body>
+</html>
